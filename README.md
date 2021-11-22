@@ -1,11 +1,14 @@
 # Zendesk-Ticket-viewer
 This project was done for Zendesk coding challenge. It is mostly reliable in java programming language. 
 
-# Initial Setup and technology used
+## Author: Pawan Acharya
+
+## Initial Setup and technology used
+Git, Github, Java, Intellij, Gitflow, JavaFX, Xml Scenebuilder, Lucidcharts(For design)
 
 
 
-# Project Description
+## Project Description
 
 
 
@@ -13,21 +16,21 @@ This project was done for Zendesk coding challenge. It is mostly reliable in jav
 ## Project Flow
 
 
-# 1.Design
+## 1.Design
 
 
 
 
 
-# 2.Development
+## 2.Development
 
 
 
-# 3.Implementation
+## 3.Implementation
 
 
 
-# 4.Deployment 
+## 4.Deployment 
 
 
 
