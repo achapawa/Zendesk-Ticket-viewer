@@ -27,6 +27,10 @@ public class HandleAPI {
     private Scanner sc;
 
 
+    public HandleAPI(){
+
+    }
+
     //Get ALL the tickets
     public JSONObject getAllTickets(){
         //connect to API and get the tickets in JSON format
@@ -124,7 +128,7 @@ public class HandleAPI {
 
         //authenticating administration details
         String userAuthentication = email_address + ":" + password;
-        basicAuth = "Basic " + javax.xml.bind.DatatypeConverter.printBase64Binary(userAuthentication.getBytes());
+        //basicAuth = "Basic " + javafx.fxml.bind.DatatypeConverter.printBase64Binary(userAuthentication.getBytes());
 
         return basicAuth;
     }
@@ -207,3 +211,4 @@ public class HandleAPI {
 
 
 }
+

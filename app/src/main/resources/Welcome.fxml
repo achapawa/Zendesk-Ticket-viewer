@@ -6,8 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zendesk.LoadingState">
    <children>
       <Text fill="#cc5656" layoutX="150.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Ticket Viewer!" textAlignment="CENTER" wrappingWidth="246.66534423828125">
          <font>
@@ -19,7 +18,7 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <Button layoutX="452.0" layoutY="324.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="87.0" text="Continue">
+      <Button fx:id="cont" layoutX="452.0" layoutY="324.0" mnemonicParsing="false" onAction="#Continue" prefHeight="39.0" prefWidth="87.0" text="Continue">
          <font>
             <Font size="14.0" />
          </font>

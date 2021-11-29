@@ -1,5 +1,7 @@
 package zendesk;
 
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.animation.PauseTransition;
 import javafx.event.Event;
@@ -29,6 +31,8 @@ import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import static zendesk.App.setState;
+
 public class LoadingState implements UIState {
     public static Stage stage;
     public static final String WELCOME_BOX_FXML = "/Welcome.fxml";
@@ -49,7 +53,9 @@ public class LoadingState implements UIState {
 
     public void handle(EventHandler event) {
 
+
     }
+
 
     public void testState(Stage stage) throws IOException {
 
@@ -63,7 +69,19 @@ public class LoadingState implements UIState {
         stage.setScene(scene);
         stage.show();
 
+
+
     }
+
+
+
+    @FXML
+    private void Continue(
+            ActionEvent event) throws IOException {
+
+        setState(new MainPage(stage));
+    }
+
 
 
 

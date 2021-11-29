@@ -34,7 +34,7 @@ public class App extends Application {
     // start method from Application in JavaFx
     @Override
     public void start(Stage primaryStage) throws Exception {
-        setState(new LoadingState(primaryStage));
+        setState(new MainPage(primaryStage));
         state.run();
     }
 
