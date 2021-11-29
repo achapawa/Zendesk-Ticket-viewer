@@ -1,3 +1,4 @@
+The following is the approx time frame of each sprint that I planned,
 Sprint 1(2-3 days)
 -Checked all the requirements
 - looked for all the missing gradle setup necessary
