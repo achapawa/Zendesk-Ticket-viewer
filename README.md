@@ -11,6 +11,10 @@ Git, Github, Java, Intellij, Gitflow, JavaFX, Xml Scenebuilder, Lucidcharts(For 
 ## Project Description
 This is a gradle app made using java, javaFx and fxml scenebuilder. This helps to view the tickets connecting to the Zendesk Api. Although, it is not perfectly made, this still works.
 
+![Screenshot (179)](https://user-images.githubusercontent.com/77375149/143865516-2b61a767-a631-4c69-8dd3-951e6abcf1a2.png)
+
+![Screenshot (178)](https://user-images.githubusercontent.com/77375149/143865622-6d928b8c-4723-45b9-815a-eda5c1471415.png)
+ 
 Major problems encountered: 
 -gradle version errors
 
